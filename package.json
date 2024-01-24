@@ -2,8 +2,10 @@
   "name": "backend_development",
   "version": "1.0.0",
   "description": "Backend development",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon src/index.js",
     "test": "jest"
   },
   "keywords": [
@@ -11,5 +13,8 @@
     "Node"
   ],
   "author": "Nishant",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
 }
