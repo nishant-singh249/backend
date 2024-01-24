@@ -1,0 +1,15 @@
+{
+  "name": "backend_development",
+  "version": "1.0.0",
+  "description": "Backend development",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "JavaScript",
+    "Node"
+  ],
+  "author": "Nishant",
+  "license": "ISC"
+}
